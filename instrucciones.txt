@@ -1,1 +1,15 @@
-si
+Parte 1:
+
+Autentica openshift contra un registro privado
+
+Usa la imagen pull quay.io/pedrolp/ubi-sleep que tiene visibilidad privada para desplegar en Opsnshift
+
+
+
+Parte 2
+
+En el repo https://github.com/pedrolp85/ex288_ex7.git
+Hay una aplicacion Java scrip que puede ser desplegada con s2i y la builder nodejs:12
+
+La aplicacion lee la variable de entorno APP_MSG y la secret username, password y salt
+
